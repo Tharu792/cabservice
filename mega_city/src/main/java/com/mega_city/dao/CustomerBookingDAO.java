@@ -3,8 +3,6 @@ package com.mega_city.dao;
 import com.mega_city.model.CustomerBooking;
 import com.mega_city.util.DBConnection;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
