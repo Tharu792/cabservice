@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class LogoutController extends HttpServlet {
 
+	private static final long serialVersionUID = 1L;
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Invalidate the session to log out the user

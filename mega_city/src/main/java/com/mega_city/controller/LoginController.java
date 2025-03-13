@@ -13,6 +13,8 @@ import java.io.IOException;
 
 @WebServlet("/LoginController")
 public class LoginController extends HttpServlet {
+	
+	private static final long serialVersionUID = 1L;
 
     private LoginService loginService = new LoginService();
 

@@ -12,6 +12,8 @@ import java.io.IOException;
 
 @WebServlet("/UpdateCarDriverController")
 public class UpdateCarDriverController extends HttpServlet {
+	
+	private static final long serialVersionUID = 1L;
 
     private CarDriverService carDriverService = new CarDriverService();
 

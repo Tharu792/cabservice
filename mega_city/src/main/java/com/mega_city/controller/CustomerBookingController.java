@@ -12,6 +12,8 @@ import java.io.IOException;
 
 @WebServlet("/CustomerBookingController")
 public class CustomerBookingController extends HttpServlet {
+	
+	private static final long serialVersionUID = 1L;
 
     private CustomerBookingService customerBookingService = new CustomerBookingService();
 
