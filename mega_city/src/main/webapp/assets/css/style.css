@@ -269,19 +269,30 @@ nav .button-group a:active, nav .button-group2 a:active {
     }
 }
 
-/* Footer */
 footer {
-    background-color: #7c7c7c;
-    color: white;
+    background-color: #222; /* Dark background for contrast */
+    color: #fff;
     text-align: center;
-    padding:5px;
-    width: 100%;
-    bottom: 0;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #f8b400; /* Highlight color for links */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff; /* Change to white on hover */
+    text-decoration: underline;
 }
 
 footer p {
-    font-size: 1.1rem;
+    margin: 5px 0;
 }
+
 
 /* Booking Section */
 .booking-section {

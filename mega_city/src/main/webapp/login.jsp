@@ -165,6 +165,12 @@ body {
 
     <footer>
         <p>&copy; 2025 Mega City Cab. All rights reserved.</p>
+        <p>Follow us on: 
+        <a href="https://www.facebook.com/megacitycab" target="_blank">Facebook</a> | 
+        <a href="https://www.twitter.com/megacitycab" target="_blank">Twitter</a> | 
+        <a href="https://www.instagram.com/megacitycab" target="_blank">Instagram</a>
+    </p>
+    <p>Privacy Policy | Terms and  Conditions </p>
     </footer>
 
 </body>
