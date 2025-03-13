@@ -163,7 +163,7 @@ button:hover {
     <div class="button-group">
         <a href="index.jsp" class="button">Home</a>
         <a href="#booking-list" class="button">BookingDetails</a>
-        <a href="viewregisterUserAndAdmin.jsp" class="button">RegisterUser</a>
+        <a href="viewregisterUserAndAdmin.jsp" class="button">RegisterUser&Admin</a>
         <div class="button-group2">
             <a href="adminregister.jsp" class="button">AdminRegister</a>
             <a href="logout.jsp" class="button">Logout</a>
