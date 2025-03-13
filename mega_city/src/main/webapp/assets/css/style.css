@@ -1,0 +1,550 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #c2d3fc;
+    padding: 8px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo img {
+    height: 100px; 
+    max-width: 100%; 
+    object-fit: contain; 
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2)); 
+    transition: transform 0.3s ease; 
+    padding: 1px 60px;
+}
+
+nav .logo img:hover {
+    transform: scale(1.05);
+}
+
+nav .button-group {
+    display: flex;
+    align-items: center;
+    margin-right:50px;
+}
+
+nav .button-group2 {
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+}
+
+nav .button-group a, nav .button-group2 a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 0 10px;
+    background-color: #2b5668;
+    border-radius: 30px;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+nav .button-group a:hover, nav .button-group2 a:hover {
+    background-color: #1c8bc1;
+    transform: scale(1.05);
+}
+
+nav .button-group a:active, nav .button-group2 a:active {
+    transform: scale(0.98);
+}
+
+/* Home Section */
+.home {
+    position: relative; 
+    text-align: center;
+    padding:5px 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+}
+
+/* Home Title and Paragraph Styling */
+.home h1 {
+    font-size: 65px;
+    color: #000000; 
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.home p {
+    font-size: 22px;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    max-width: 700px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+/* Book Now Button Styling - Positioned on Image */
+.book-now-btn {
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #ff9800;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    z-index: 2;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.book-now-btn:hover {
+    background-color: #e68900;
+}
+
+/* Home Image Styling */
+.home img {
+    width: 100%;
+    height: 600px;
+    box-shadow: none; 
+    border: none;
+    object-fit: cover; 
+}
+/* About Section Styling */
+.about {
+    background-color: #fec89c;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 1000px;
+   
+}
+
+/* About Title */
+.about h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* About Description */
+.about p {
+    font-size: 18px;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+/* Why Choose Us - Heading */
+.about h3 {
+    font-size: 26px;
+    color: #ff9800;
+    margin-top: 30px;
+}
+
+/* Why Choose Us - List */
+.about ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about ul li {
+    font-size: 18px;
+    color: #444;
+    background: url('../image/check-icon.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about {
+        padding: 40px 15px;
+    }
+    .about h2 {
+        font-size: 28px;
+    }
+    .about h3 {
+        font-size: 24px;
+    }
+    .about ul li {
+        font-size: 16px;
+    }
+}
+/* Contact Section */
+.contact {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Contact Box Container */
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual Contact Boxes */
+.contact-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Icons Styling */
+.icon {
+    font-size: 30px;
+    color: #ff9800;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Links Styling */
+.contact-box a {
+    text-decoration: none;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-box {
+        width: 90%;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #7c7c7c;
+    color: white;
+    text-align: center;
+    padding:5px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+/* Booking Section */
+.booking-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.booking-section h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.booking-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Vehicle Container */
+.vehicle-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Vehicle Card */
+.vehicle-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.vehicle-card:hover {
+    transform: scale(1.05);
+}
+
+.vehicle-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.vehicle-card h2 {
+    font-size: 22px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.vehicle-card p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Order Button */
+.order-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.order-button:hover {
+    background-color: #218838;
+}
+
+/* Login Page Styling */
+
+
+/* Registration Box */
+.box1 {
+    margin-top: 50px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+.register-container {
+    text-align: center;
+}
+
+h2 {
+    color: #002060;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 12px;
+    display: block;
+    font-size: 14px;
+    color: rgb(213, 240, 255);
+}
+
+input {
+    width: 95%;
+    padding: 12px;
+    margin: 6px 0;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #004080;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 64, 128, 0.5);
+}
+
+input[type="submit"] {
+    background-color: #00ff00;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #001440;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+p a {
+    color: #002060;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #001440;
+}
+
+/* CustomerBooking Form Section */
+.booking-form-section {
+    max-width: 600px;
+    margin: 60px auto;
+    background: linear-gradient(135deg, #ffffff, #f0f8ff);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.booking-form-section:hover {
+    transform: translateY(-5px);
+}
+
+.booking-form-section h1 {
+    color: #0056b3;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.booking-form-section p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+    margin-top: 12px;
+    text-align: left;
+    font-weight: 600;
+    color: #333;
+}
+
+input, select {
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    background: #ffffff;
+}
+
+/* Submit Button */
+.submit-button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    padding: 14px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .booking-form-section {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .submit-button {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
