@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help - Mega City Cab</title>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -19,37 +19,49 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0px 0px 10px gray;
-            margin:20px auto;
+            margin: 20px auto;
         }
         h1 {
             text-align: center;
-            color:#333:
+            color: #333;
         }
-        h2{
-        color:#444;
-        border-bottom: 2px solid #ddd;
-        padding-bottom: 5px;
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
         }
         ul {
             line-height: 1.6;
         }
-        p{
-        font-size: 16px;
-        color: #555;
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Help & Support</h1>
+        <h1>Help and Support</h1>
         <p>Welcome to Mega City Cab! Here’s how you can use our service:</p>
         
         <h2>1. Viewing Car and Driver Details</h2>
         <ul>
             <li>Anyone can browse available cars and driver details without logging in.</li>
             <li>Click on a car to see more details before booking.</li>
-            <a href="details.jsp" class="button">Details</a>
+            <li><a href="details.jsp" class="button">View Details</a></li>
         </ul>
         
         <h2>2. Booking a Ride</h2>
@@ -57,14 +69,13 @@
             <li>You must be logged in to place a booking.</li>
             <li>New users can register by clicking the <b>Login</b> button and then signing up.</li>
             <li>Once logged in, you can select a car and driver, then confirm your ride.</li>
-            <a href="booking.jsp" class="button">Booking Page</a>
+            <li><a href="booking.jsp" class="button">Go to Booking</a></li> 
         </ul>
         
         <h2>3. Viewing Your Bookings</h2>
         <ul>
             <li>After logging in, you can see all bookings related to your account.</li>
             <li>Track and manage your bookings easily.</li>
-            
         </ul>
         
         <h2>4. Calculating Your Bill</h2>
