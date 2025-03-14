@@ -18,8 +18,8 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 88%;  /* You can adjust the width as per your preference */
-    max-width: 1450px; /* Set a max width for larger screens */
+    width: 88%;  
+    max-width: 1450px; 
 }
 
 /* Button Styling for Back to Dashboard */

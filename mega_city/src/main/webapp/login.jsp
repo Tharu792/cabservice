@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background-image: url('assets/images/login.jpeg'); /* Add your background image here */
+    background-image: url('assets/images/login.jpeg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -24,7 +24,7 @@ body {
 
 /* Login Container */
 .login-container {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 40px;
     width: 100%;
     max-width: 400px;
