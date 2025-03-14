@@ -170,7 +170,6 @@ nav .button-group a:active, nav .button-group2 a:active {
 .about ul li {
     font-size: 18px;
     color: #444;
-    background: url('../image/check-icon.png') no-repeat left center;
     background-size: 20px;
     padding-left: 35px;
     margin-bottom: 10px;
@@ -270,7 +269,7 @@ nav .button-group a:active, nav .button-group2 a:active {
 }
 
 footer {
-    background-color: #222; /* Dark background for contrast */
+    background-color: rgb(128, 128, 128); 
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -278,14 +277,14 @@ footer {
 }
 
 footer a {
-    color: #f8b400; /* Highlight color for links */
+    color: #f8b400; /
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #fff; /* Change to white on hover */
+    color: #fff; 
     text-decoration: underline;
 }
 
@@ -366,97 +365,6 @@ footer p {
 
 .order-button:hover {
     background-color: #218838;
-}
-
-/* Login Page Styling */
-
-
-/* Registration Box */
-.box1 {
-    margin-top: 50px;
-    background-color: white;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-   
-.register-container {
-    text-align: center;
-}
-
-h2 {
-    color: #002060;
-    font-size: 24px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-label {
-    font-weight: bold;
-    margin-top: 12px;
-    display: block;
-    font-size: 14px;
-    color: rgb(213, 240, 255);
-}
-
-input {
-    width: 95%;
-    padding: 12px;
-    margin: 6px 0;
-    border: 1px solid #bbb;
-    border-radius: 6px;
-    font-size: 14px;
-}
-
-input:focus {
-    border-color: #004080;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 64, 128, 0.5);
-}
-
-input[type="submit"] {
-    background-color: #00ff00;
-    color: white;
-    cursor: pointer;
-    border: none;
-    padding: 12px 20px;
-    width: 100%;
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-input[type="submit"]:hover {
-    background-color: #001440;
-}
-
-p {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #333;
-}
-
-p a {
-    color: #002060;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-p a:hover {
-    text-decoration: underline;
-    color: #001440;
 }
 
 /* CustomerBooking Form Section */
