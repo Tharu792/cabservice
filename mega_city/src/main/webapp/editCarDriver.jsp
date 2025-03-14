@@ -52,6 +52,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Car and Driver Details</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+    
+/* Main container */
+.box1 {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.admin-dashboard-container {
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+    </style>
+    
 </head>
 <body>
 
@@ -59,16 +116,11 @@
     <div class="logo">
         <img src="assets/images/logo.png" alt="Mega City Cab Logo">
     </div>
-    <div class="button-group">
-        <a href="index.jsp" class="button">Home</a>
-        <a href="booking.jsp" class="button">Booking</a>
-        <a href="viewbooking.jsp" class="button">View Booking</a>
-        <a href="help.jsp" class="button">Help</a>
-        <div class="button-group2">
-            <a href="login.jsp" class="button">Login</a>
-            <a href="logout.jsp" class="button">Logout</a>
-        </div>
+    
+    <div class="button-group2">
+            <a href="adminDashboard.jsp" class="button">Back</a>
     </div>
+    
 </nav>
 
 <div class="box1">
