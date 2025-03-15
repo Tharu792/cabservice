@@ -72,11 +72,6 @@ body {
     background-color: #1a6fa2;
 }
 
-.login-container form p {
-    font-size: 14px;
-    color: #555;
-}
-
 .login-container form a {
     color: #1c8bc1;
     text-decoration: none;
@@ -106,9 +101,7 @@ body {
         font-size: 14px;
     }
 }
-
-
-    </style>
+</style>
 </head>
 <body>
 <nav>
@@ -117,7 +110,6 @@ body {
     </div>
     <div class="button-group">
         <a href="index.jsp" class="button">Home</a>
-        <a href="adminregister.jsp" class="button">Admin Register</a>
         <div class="button-group2">
             <a href="adminlogin.jsp" class="button">Admin Login</a>
             <a href="logout.jsp" class="button">Logout</a>
@@ -143,7 +135,7 @@ body {
 
             <button type="submit">Login</button>
             
-             <p>Don't have an account? <a href="adminregister.jsp">Register here</a></p>
+            
         </form>
     </div>
     

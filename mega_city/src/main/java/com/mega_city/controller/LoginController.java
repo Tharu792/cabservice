@@ -28,7 +28,7 @@ public class LoginController extends HttpServlet {
         login.setUsername(username);
         login.setPassword(password);
 
-        // Validate user credentials
+        // check Validate user credentials
         if (loginService.loginUser(login)) {
             // Successful login: Start session and store user info
             HttpSession session = request.getSession();

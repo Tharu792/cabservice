@@ -124,11 +124,13 @@ body {
             
         <div class="button-group">
            <a href="index.jsp" class="button">Home</a>
-           <a href="booking.jsp" class="button">Booking</a>
-           <a href="viewbooking.jsp" class="button">View Booking</a>
-           <a href="help.jsp" class="button">Help</a>
            <a href="adminlogin.jsp" class="button">Admin</a>
-         
+           
+            <div class="button-group2">
+           <a href="help.jsp" class="button">Help</a>
+           <a href="logout.jsp" class="button">Logout</a>
+           </div>
+          
         </div>
     </nav>
 
